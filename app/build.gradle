@@ -224,11 +224,6 @@ if (includeFirebase) {
 
 apply plugin: 'com.github.ben-manes.versions'
 
-kotlin {
-    experimental {
-        coroutines "enable"
-    }
-}
 androidExtensions {
     experimental = true
 }
